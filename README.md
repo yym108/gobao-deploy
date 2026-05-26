@@ -39,7 +39,7 @@ bash scripts/bootstrap-repos.sh
 docker compose --env-file .env.example -f docker-compose.yml up -d --build
 ```
 
-独立部署仓默认通过 `GOBao_BUILD_CONTEXT=./workspace` 从 `workspace/` 内构建服务镜像。
+独立部署仓默认通过 `GOBAO_BUILD_CONTEXT=./workspace` 从 `workspace/` 内构建服务镜像。
 
 ## 回收
 
